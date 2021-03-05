@@ -1,0 +1,110 @@
+
+@import url(app.css);
+@import url(blocks.css);
+
+* {
+	border-radius: 0;
+}
+.search input[type="text"]
+{
+	padding: 4.5px 9px;
+}
+#service ul li
+{
+	margin-bottom:7px !important;
+}
+#page table
+{
+	width:100%;
+	border-collapse:collapse;
+	border:1px solid #ccc;
+}
+#page table th
+{
+	background:#ff2d55;
+	color:#fff;
+	padding:10px;
+	font-size:16px;
+	border:1px solid #ccc;
+	text-align:center;
+	
+	
+}
+#page table td
+{
+	border:1px solid #ccc;
+	text-align:center;
+}
+#page table tr:nth-child(even) {background: #e0cdff}
+#page table tr:nth-child(odd) {background: #FFF}
+body {
+ color: #333;
+ font-size: 14px;
+ font-family:"Open Sans", Arial, sans-serif;
+ line-height: 1.6;
+}
+
+body.header-fixed-space {
+  padding-top: 94px;
+}
+body.header-fixed-space-v2 {
+	padding-top: 135px;
+}
+
+@media (max-width: 991px) {
+	body.header-fixed-space,
+	body.header-fixed-space-v2 {
+		padding-top: 0;
+	}
+}
+
+p,
+li,
+li a,
+label {
+/*  color: #555; */
+ color:#000;
+
+}
+
+a {
+ /* color: #e11e0a;  */
+  color: #389fe4;
+  text-decoration: none;
+}
+
+a,
+a:focus,
+a:hover,
+a:active,
+button,
+button:hover {
+	outline: 0 !important;
+}
+
+a:focus {
+text-decoration: none;
+}
+a:hover {
+ /* color: #e11e0a;  */
+ 
+ 
+ 
+ text-decoration: underline;
+}
+
+/*Boxed Layout
+------------------------------------*/
+.wrapper {
+	background: #fff;
+	float:left;
+	width:100%;
+}
+
+.boxed-layout {
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background: url(../img/patterns/15.png) repeat;
+}

@@ -1,0 +1,92 @@
+@font-face
+{
+font-family: myFirstFont1;
+src: url(../fonts/cambriabold.ttf);
+}
+@font-face
+{
+font-family: myFirstFont2;
+src: url(../fonts/cambria.ttf);
+}
+@font-face
+{
+font-family: myFirstFont3;
+src: url(../fonts/franklin-gothic-demi-cond.ttf);
+}
+
+
+@font-face {
+	font-family:'AdobeGothicStd-Bold-Alphabetic';
+	src: url('../fonts/AdobeGothicStd-Bold-Alphabetic_gdi.eot');
+	src: url('../fonts/AdobeGothicStd-Bold-Alphabetic_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AdobeGothicStd-Bold-Alphabetic_gdi.woff') format('woff'),
+		url('../fonts/AdobeGothicStd-Bold-Alphabetic_gdi.ttf') format('truetype'),
+		url('../fonts/AdobeGothicStd-Bold-Alphabetic_gdi.svg#AdobeGothicStd-Bold-Alphabetic') format('svg');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0-10FFFF;
+}
+@font-face {
+  font-family: 'Ebrima';
+  src: url('../fonts/Ebrima.eot?#iefix') format('embedded-opentype'),  
+  	url('../fonts/Ebrima.woff') format('woff'), 
+  	url('../fonts/Ebrima.ttf')  format('truetype'), 
+  	url('../fonts/Ebrima.svg#Ebrima') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/Robotoslab-Regular-webfont.eot');
+    src: url('../fonts/Robotoslab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Robotoslab-Regular-webfont.woff') format('woff'),
+         url('../fonts/Robotoslab-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Robotoslab-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+@font-face {
+  font-family: 'Bariol-Bold';
+  src: url('../fonts/Bariol-Bold.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/Bariol-Bold.otf')  format('opentype'),
+	     url('../fonts/Bariol-Bold.woff') format('woff'), 
+		 url('../fonts/Bariol-Bold.ttf')  format('truetype'), 
+		 url('../fonts/Bariol-Bold.svg#Bariol-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Corbel';
+  src: url('../fonts/Corbel.eot?#iefix') format('embedded-opentype'),  
+  url('../fonts/Corbel.woff') format('woff'), 
+  url('../fonts/Corbel.ttf')  format('truetype'), 
+  url('../fonts/Corbel.svg#Corbel') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+	font-family:'Dynar-Medium';
+	src: url('../fonts/Dynar-Medium_gdi.eot');
+	src: url('../fonts/Dynar-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Dynar-Medium_gdi.woff') format('woff'),
+		url('../fonts/Dynar-Medium_gdi.ttf') format('truetype'),
+		url('../fonts/Dynar-Medium_gdi.svg#Dynar-Medium') format('svg');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+0020-2122;
+}
+@font-face {
+	font-family:'Calibri-Regular';
+	src: url('../fonts/Calibri_gdi.eot');
+	src: url('../fonts/Calibri_gdi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Calibri_gdi.woff') format('woff'),
+		url('../fonts/Calibri_gdi.ttf') format('truetype'),
+		url('../fonts/Calibri_gdi.svg#Calibri-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+	unicode-range: U+000D-25CA;
+}
